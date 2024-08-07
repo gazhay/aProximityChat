@@ -1,0 +1,25 @@
+{
+    "manifest_version": 1,
+    "name"            : "aProximityChat",
+    "description"     : "An attempt at serverless proximity chat for zwift",
+    "author"          : "Gaz Hay",
+    "website_url"     : "https://github.com/gazhay",
+    "version"         : "0.0.1a",
+    "web_root"        : "pages",
+    "id"              : "aproximitychat",
+    "windows": [ {
+        "file"          : "pages/aproximity.html",
+        "id"            : "aproximity",
+        "name"          : "aProximityChat",
+        "description"   : "the Genesis of proximity chat",
+        "always_visible": true,
+        "overlay"       : true,
+        "frame"         : false,
+        "default_bounds": {
+            "width" : 800,
+            "height": 400,
+            "x"     : 100,
+            "y"     : 100
+        }
+    }]
+}
